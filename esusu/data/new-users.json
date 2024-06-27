@@ -1,0 +1,17 @@
+{
+    "user1": {
+        "id": "user1",
+        "authToken": "secret1",
+        "tokenCount": 50
+    },
+    "user2": {
+        "id": "user2",
+        "authToken": "secret2",
+        "tokenCount": 100
+    },
+    "user3": {
+        "id": "user2",
+        "authToken": "secret22",
+        "tokenCount": 100
+    }
+}

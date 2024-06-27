@@ -1,0 +1,14 @@
+{
+    "10": {
+        "id": 10,
+        "name": "user1",
+        "authToken": "secret1",
+        "tokenCount": 50000
+    },
+    "22": {
+        "id": 22,
+        "name": "user2",
+        "authToken": "secret2",
+        "tokenCount": 100000
+    }
+}
