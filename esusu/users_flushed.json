@@ -3,18 +3,14 @@
   "id": 10,
   "name": "user1",
   "authToken": "secret1",
-  "tokenCount": 49992,
-  "hits": {
-   "/api/memes": 11
-  }
+  "tokenCount": 50000,
+  "hits": null
  },
  "22": {
   "id": 22,
   "name": "user2",
   "authToken": "secret2",
-  "tokenCount": 97683,
-  "hits": {
-   "/api/memes": 2319
-  }
+  "tokenCount": 100000,
+  "hits": null
  }
 }

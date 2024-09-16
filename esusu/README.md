@@ -25,12 +25,22 @@
 ```bash
 make all
 ```
-will create _dist_ folder where you can find executables for macOS, linux and windows.
+will create _dist_ folder where you can find executables for current OS.
+
+```bash
+make build-alpine-static
+```
 
 ### Running
 ```bash
-dist/(linux|darwin|windows)/maas <port> <users json>
+dist/maas <port> <users json>
 ```
+or
+```bash
+docker run -p 5555:8080 -it memes-as-a-service-app
+```
+... to run in docker
+
 alternative to building would be running go code directly using go _run_ command.
 ```bash
 go run -mod vendor cmd/server.go 5555 users_flushed.json
